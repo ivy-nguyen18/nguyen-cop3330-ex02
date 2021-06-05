@@ -13,7 +13,7 @@ public class App
     {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("What is the input string?");
+        System.out.print("What is the input string?");
         String word = input.nextLine();
 
         System.out.printf("%s has %d characters", word, word.length());
